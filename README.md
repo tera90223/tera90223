@@ -1,6 +1,8 @@
 # Hi, I'm Chantera Lazard
 
-M.S. Bioinformatics candidate at Northeastern University. I build ML pipelines and knowledge graphs for cancer genomics, federated learning, and variant discovery — from hackathon prototypes to peer-reviewed preprints.
+M.S. Bioinformatician from Northeastern University. 
+
+I build ML pipelines and knowledge graphs for cancer genomics, federated learning, and variant discovery — from hackathon prototypes to peer-reviewed preprints.
 
 **Bioinformatics** — FastQC · Trimmomatic · HISAT2 · featureCounts · DESeq2 · Samtools  
 **ML / AI** — scikit-learn · NVIDIA FLARE · Random Forests · SVM · Gradient Boosting  
