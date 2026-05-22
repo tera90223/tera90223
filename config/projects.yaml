@@ -1,63 +1,88 @@
-- name: OncoLearn
+- name: RAIDers — Federated ALS Genomics
   year: "2026"
   tag: "Hackathon · Federated Learning"
   description: >-
-    Multi-modal ML toolkit for cancer genomics and biomarker discovery. Led a
-    cross-functional team of 15 contributors across three sub-projects, guiding
-    overall architecture and development.
+    Federated learning framework integrating multi-source ALS genomic data
+    (ClinVar, gnomAD, ALSod, GeneCards, OMIM) using NVIDIA FLARE — mapping
+    variants to biological pathways for precision therapeutic stratification.
+    Built at the 2026 Carnegie Mellon × NVIDIA Hackathon.
   tech:
     - Python
-    - PyTorch
+    - NVIDIA FLARE
     - Federated Learning
-    - Multi-modal ML
-    - Cancer Genomics
-  accent: "var(--amber)"
-  url: "https://github.com/collaborativebioinformatics/OncoLearn"
+    - ClinVar
+    - ALS Genomics
+  accent: "var(--cyan)"
+  url: "https://doi.org/10.37044/osf.io/5psfj_v1"
 
-- name: ClassiGraph
+- name: GeNETwork — Cancer Knowledge Graph
   year: "2025"
-  tag: "Hackathon · Graph ML"
+  tag: "Hackathon · Knowledge Graphs"
   description: >-
-    Graph Neural Network for multi-modal cancer subtype classification.
-    Co-developed as part of a competitive hackathon, combining graph structure
-    with molecular feature data.
+    Neo4j knowledge graph integrating somatic variant, drug, and clinical
+    evidence across 6 databases (TCGA, MTP, OncoDB, CIVIC, MSigDB, HGNC) — with
+    a melanoma case study linking oncogene-induced senescence genes to
+    druggable targets. Piloted on AWS EC2 with data on S3.
   tech:
-    - Python
-    - PyTorch
-    - GNN
+    - Neo4j
+    - Cypher
+    - Docker
+    - AWS EC2
+    - AWS S3
     - Cancer Genomics
   accent: "var(--amber)"
-  url: "https://github.com/collaborativebioinformatics/ClassiGraph"
+  url: "https://doi.org/10.37044/osf.io/g4rk2_v1"
 
-- name: TxDOT Pavement AI
-  year: "2023–2025"
-  tag: "Research · Computer Vision"
+- name: SpaceVars — Pan-Structural Variation Pipeline
+  year: "2025"
+  tag: "Hackathon · Genomics"
   description: >-
-    Data pipelines for crack segmentation and object detection in 2D/3D pavement
-    surface images (Project 0-7150). Trained and evaluated CNN and
-    transformer-based models for crack detection.
+    3-phase k-mer and alignment validation pipeline identifying novel genomic
+    structural variations in the HG002 T2T assembly vs. CHM13 — processed 291M+
+    k-mers on DNANexus, reducing to 1.25M high-confidence candidates with 63.3%
+    outside known repetitive regions.
+  tech:
+    - KMC3
+    - BWA-MEM
+    - DNANexus
+    - T2T Assemblies
+    - GA4GH
+  accent: "var(--amber)"
+  url: ""
+
+- name: Biomarker Ranker & Therapy Prediction
+  year: "2025–Present"
+  tag: "Research · ML Pipeline"
+  description: >-
+    Machine learning pipeline ranking therapeutic biomarkers for breast cancer
+    from TCGA RNA-seq and proteomics. Implements Random Forests, SVMs, and
+    Gradient Boosting via scikit-learn — cross-checked against DrugBank and CTD
+    for clinical relevance, scaled on AWS EC2 / S3 with SageMaker deployment.
   tech:
     - Python
-    - PyTorch
-    - CUDA
-    - CNN
-    - Transformers
-    - YOLO
+    - scikit-learn
+    - AWS EC2
+    - AWS S3
+    - AWS SageMaker
+    - DrugBank
+    - CTD
   accent: "var(--cyan)"
   url: ""
 
-- name: LurgCraft Network
-  year: "2021–2024"
-  tag: "Production · Distributed Systems"
+- name: RNA-seq Analysis Pipeline
+  year: "2024"
+  tag: "Research · Bioinformatics"
   description: >-
-    Sole Java developer of a distributed Minecraft network. Engineered
-    cross-server communication enabling real-time synchronization across multiple
-    game servers, versions, and platforms. Delivered 20 custom projects and
-    enhanced 46 existing codebases.
+    Custom Python RNA-seq pipeline identifying biomarkers in cancerous and
+    paracancerous liver tissues from GEO data with DESeq2 normalization.
+    Automated QC (FastQC), alignment (HISAT2), and read counting (featureCounts)
+    with a focus on rigor and reproducibility.
   tech:
-    - Java
-    - Maven
-    - Distributed Systems
-    - Minecraft API
+    - Python
+    - DESeq2
+    - FastQC
+    - HISAT2
+    - featureCounts
+    - GEO
   accent: "var(--cyan)"
   url: ""

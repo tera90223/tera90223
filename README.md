@@ -1,11 +1,12 @@
-# Hi, I'm Andrew Scouten
+# Hi, I'm Chantera Lazard
 
-M.S. Computer Science candidate at Texas State University. I build end-to-end data pipelines and train deep learning models — from pavement crack detection to cancer genomics.
+M.S. Bioinformatics candidate at Northeastern University. I build ML pipelines and knowledge graphs for cancer genomics, federated learning, and variant discovery — from hackathon prototypes to peer-reviewed preprints.
 
-**ML / AI** — PyTorch · CUDA · CNNs · Transformers · GNNs  
-**Languages** — Python · C++ · Java · JavaScript · R  
-**Web** — React · React Native · Node.js
+**Bioinformatics** — FastQC · Trimmomatic · HISAT2 · featureCounts · DESeq2 · Samtools  
+**ML / AI** — scikit-learn · NVIDIA FLARE · Random Forests · SVM · Gradient Boosting  
+**Cloud & Graphs** — AWS (EC2, S3, SageMaker, Neptune) · DNANexus · Neo4j · GraphRAG  
+**Languages** — Python · R · SQL · Bash/Unix
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-andrewscouten.com-blue)](https://andrewscouten.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-andrewscouten-0077B5?logo=linkedin)](https://linkedin.com/in/andrewscouten)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--6418--7158-A6CE39?logo=orcid)](https://orcid.org/0009-0004-6418-7158)
+[![Portfolio](https://img.shields.io/badge/Portfolio-chanteralazard.com-blue)](https://chanteralazard.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-chantera--lazard-0077B5?logo=linkedin)](https://linkedin.com/in/chantera-lazard-66836652)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--1367--3812-A6CE39?logo=orcid)](https://orcid.org/0009-0006-1367-3812)

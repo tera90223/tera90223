@@ -1,28 +1,26 @@
 paragraphs:
   - >-
-    I'm a machine learning engineer and researcher with a focus on computer vision.
-    My work has taken me from Texas highways (TxDOT-funded crack detection using CNNs
-    and transformers) to low Earth orbit — segmenting corrosion in metal samples
-    collected aboard the ISS during SpaceX-21 — with publications from both.
+    I'm a bioinformatician focused on translating genomic data into actionable
+    biology. My work spans cancer genomics, federated learning across biobanks,
+    and knowledge graphs for therapeutic discovery — with hackathon-driven
+    publications in BioHackrXiv and an in-prep submission to F1000Research.
   - >-
-    Outside the lab, I'm usually spending time with family, rolling dice in a D&D
-    campaign, or tinkering with my home lab. I play a lot of video games and I'm
-    always picking up something new — whether that's a language, a framework, or
-    just whatever rabbit hole caught my attention that week.
+    I'm comfortable across the stack: building RNA-seq pipelines in Python,
+    deploying Neo4j knowledge graphs on AWS, and applying classical ML and
+    federated frameworks like NVIDIA FLARE. I care about reproducible,
+    collaborative science that works across institutions.
 facts:
   - label: Focus
-    value: Applied Machine Learning & Data Pipelines
+    value: Cancer Genomics, Federated Learning & Knowledge Graphs
   - label: Degree
-    value: M.S. Computer Science · Dec. 2026
+    value: M.S. Bioinformatics · May 2026
   - label: Location
-    value: San Marcos, TX
-  - label: Languages
-    value: "English, Native · German, A2/B1"
+    value: Boston, MA
 
 interests:
-  - family
-  - friends
-  - D&D
-  - home lab
-  - video games
-  - learning new things
+  - cancer genomics
+  - federated learning
+  - knowledge graphs
+  - RNA-seq pipelines
+  - open science
+  - collaborative research

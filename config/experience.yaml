@@ -1,67 +1,123 @@
 - type: work
-  title: Graduate Research Assistant
-  org: Texas State University
-  location: San Marcos, TX
-  period: May 2023 – Dec 2025
+  title: Project Lead Contributor & Co-Author — Team RAIDers
+  org: Carnegie Mellon & NVIDIA Federated Learning Hackathon
+  location: Pittsburgh, PA
+  period: Jan 2026
   bullets:
     - >-
-      Conducted research for the [Texas Department of Transportation (Project
-      0-7150: AI for Pavement Condition Assessment from 2D/3D Surface Images)](https://rip.trb.org/View/2056297).
+      Integrated multi-source ALS genomic data (ClinVar — ~450 pathogenic
+      variants across 34 genes, gnomAD, ALSod, GeneCards, OMIM) into a federated
+      learning framework using NVIDIA FLARE.
     - >-
-      Built and maintained data pipelines for large-scale pavement imaging
-      datasets; designed, trained, and evaluated CNN and transformer-based
-      models for crack detection, leading to a conference poster and
-      peer-reviewed publication.
+      Demonstrated federated feasibility by maintaining analytical fidelity
+      across distributed institutional nodes, enabling subtype discovery across
+      diverse ancestries without centralizing sensitive data.
+    - >-
+      Applied federated ML to map ALS genetic variants to biological pathways,
+      identifying distinct molecular subtypes to support precision therapeutic
+      stratification.
+    - >-
+      Presented findings to Dr. Ahmad Al Khleifat (Head of ALS Research, King's
+      College London), resulting in expressed interest in formal research
+      collaboration.
+    - >-
+      Co-authored resulting preprint: [Mu, J. et al. (2026). Towards Federated
+      Learning Across Biobanks. BioHackrXiv.](https://doi.org/10.37044/osf.io/5psfj_v1)
 
 - type: work
-  title: Undergraduate Researcher
-  org: Texas State University
-  location: San Marcos, TX
-  period: Jan 2023 – Dec 2024
+  title: Participant & Co-Author — Team GeNETwork
+  org: AWS Open Data & NVIDIA Knowledge Graph Hackathon
+  location: Arlington, VA
+  period: Nov 2025
   bullets:
     - >-
-      Contributed to [NASA-backed SpaceX-21 research on bacterial adhesion and
-      corrosion](https://science.nasa.gov/biological-physical/investigations/bac-study/) 
-      using International Space Station–derived samples.
+      Delivered one of the only functional knowledge graphs at the hackathon,
+      integrating somatic variant, drug, and clinical evidence across 6
+      databases (TCGA, MTP, OncoDB, CIVIC, MSigDB, HGNC) to identify therapeutic
+      opportunities in cancer.
     - >-
-      Developed data organization and quality-control pipelines; applied
-      classical ML and deep learning methods for corrosion segmentation and
-      labeling, resulting in a peer-reviewed publication.
+      Built a Neo4j graph database in Docker, piloting deployment on AWS EC2
+      with genomic datasets stored on AWS S3 — 6 node types and Cypher queries
+      enabling flexible pathway-centric retrieval and downstream analytics.
+    - >-
+      Demonstrated clinical utility through a melanoma use case, linking
+      oncogene-induced senescence pathway genes to druggable targets and
+      identifying drug repurposing and combination therapy candidates.
+    - >-
+      Collaborated with EMBL-EBI team in London on cross-institutional graph
+      analysis, showcasing reproducibility across research environments.
+    - >-
+      Co-authored resulting preprint in [BioHackrXiv](https://doi.org/10.37044/osf.io/g4rk2_v1).
 
 - type: work
-  title: Java Developer
-  org: LurgCraft, Minecraft Network
-  location: Remote
-  period: Jan 2021 – Jan 2024
+  title: Participant & Co-Author — Team SpaceVars
+  org: Baylor College of Medicine Pan-Structural Variation Hackathon
+  location: Houston, TX
+  period: Aug 2025
   bullets:
     - >-
-      Sole Java developer of [LurgCraft](https://store.lurgcraft.com/) — engineered cross-server 
-      communication systems enabling real-time synchronization across multiple game servers, 
-      Minecraft versions, and platforms.
+      Contributed as scientific writer and analyst for SpaceVars, a 3-phase
+      k-mer and alignment validation pipeline to identify novel genomic
+      structural variations in the HG002 T2T assembly relative to the CHM13
+      reference genome.
     - >-
-      Delivered 20 custom projects and enhanced 46 existing codebases,
-      building strong instincts for rapidly reading and extending legacy
-      systems.
+      Processed and analyzed over 291M HG002-specific k-mers on DNANexus,
+      reducing 1,254,647 high-confidence novel sequence candidates (0.43% of
+      input) through multi-phase filtering using KMC3 and BWA-MEM.
+    - >-
+      Demonstrated that 63.3% of final candidate sequences fall outside known
+      repetitive regions, supporting genuine genomic novelty rather than
+      alignment artifacts.
+    - >-
+      Documented findings and interpreted results for team publication,
+      currently in preparation for submission to F1000Research Hackathons
+      channel.
 
-- type: edu
-  title: M.S. Computer Science
-  org: Texas State University
-  location: San Marcos, TX
-  period: Dec 2026 (expected)
+- type: work
+  title: Founder & Owner
+  org: Moments with Us, LLC
+  location: Sacramento, CA
+  period: Nov 2022 – Nov 2024
   bullets:
-    - "Research focus: scalable applied machine learning and domain-specific systems."
-  coursework:
-    - Parallel Processing
-    - Database Theory & Design
-    - Image Processing & Computer Vision
-    - Machine Learning & Pattern Recognition
-    - Advanced Natural Language Processing
-    - Advanced Robotics
-    - Statistical Genetics & Bioinformatics
+    - Founded and managed a childcare business, growing clientele through strategic marketing and referrals.
+    - Coordinated healthcare appointments and liaised with medical professionals to support client needs.
+    - Trained and mentored 10 staff members, ensuring high-quality care and operational efficiency.
+
+- type: work
+  title: Benefits Service Representative
+  org: Humana Military
+  location: Louisville, KY (Remote)
+  period: Feb 2022 – Oct 2022
+  bullets:
+    - Analyzed healthcare inquiries, extracting key data points to provide accurate and timely resolutions.
+    - Ensured compliance with HIPAA and DHA regulations while processing sensitive health information.
+    - Investigated beneficiary case trends to identify patterns and optimize healthcare operations.
+
+- type: work
+  title: Medical Scribe Lead
+  org: ScribeAmerica
+  location: Houston, TX (Remote)
+  period: Apr 2019 – Feb 2022
+  bullets:
+    - Documented patient encounters in real-time, ensuring accuracy and completeness in medical records.
+    - Supported physicians across 5 locations, adapting to diverse documentation styles and clinical workflows.
+    - >-
+      Promoted to Lead Scribe — trained new hires, streamlined documentation
+      processes, and strengthened physician collaboration to retain and grow
+      clientele.
 
 - type: edu
-  title: B.S. Computer Science
-  org: Texas State University
-  location: San Marcos, TX
-  period: May 2023
-  bullets: []
+  title: M.S. Bioinformatics
+  org: Northeastern University, College of Science
+  location: Boston, MA
+  period: May 2026 (expected)
+  bullets:
+    - "Research focus: cancer genomics, federated learning, and knowledge graphs for biological AI."
+
+- type: edu
+  title: B.S. Biotechnology — Concentration in Bioinformatics
+  org: University of Houston, Cullen College of Engineering
+  location: Houston, TX
+  period: Dec 2020
+  bullets:
+    - "GPA: 3.43"

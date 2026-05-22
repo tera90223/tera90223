@@ -1,20 +1,21 @@
 subtitle: >-
-  Open to research collaborations, full-time ML/SWE roles, and interesting conversations (with you, yes you!).
+  Open to research collaborations, bioinformatics roles, and interesting
+  conversations about cancer genomics, federated learning, or knowledge graphs.
   Reach out via any of the channels below.
 links:
   - label: Email
-    value: andrewscouten@gmail.com
-    href: "mailto:andrewscouten@gmail.com"
+    value: lazard.c@northeastern.edu
+    href: "mailto:lazard.c@northeastern.edu"
     mono: true
   - label: GitHub
-    value: github.com/andrewscouten
-    href: "https://github.com/andrewscouten"
+    value: github.com/tera90223
+    href: "https://github.com/tera90223"
     mono: true
   - label: LinkedIn
-    value: linkedin.com/in/andrewscouten
-    href: "https://linkedin.com/in/andrewscouten"
+    value: linkedin.com/in/chantera-lazard
+    href: "https://linkedin.com/in/chantera-lazard-66836652"
     mono: true
   - label: ORCID
-    value: "0009-0004-6418-7158"
-    href: "https://orcid.org/0009-0004-6418-7158"
+    value: "0009-0006-1367-3812"
+    href: "https://orcid.org/0009-0006-1367-3812"
     mono: true

@@ -49,7 +49,7 @@ export default function Navbar() {
           className="section-label text-sm tracking-widest hover:opacity-70 transition-opacity"
           style={{ color: "var(--cyan)" }}
         >
-          AS
+          CL
         </button>
 
         {/* Desktop nav */}

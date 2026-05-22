@@ -1,65 +1,99 @@
 skills:
   - label: Python
     category: language
-  - label: C++
-    category: language
-  - label: C
-    category: language
-  - label: C#
-    category: language
-  - label: Java
-    category: language
-  - label: JavaScript
-    category: language
-  - label: TypeScript
-    category: language
   - label: R
     category: language
-  - label: PyTorch
+  - label: SQL
+    category: language
+  - label: Bash/Unix
+    category: language
+
+  - label: scikit-learn
     category: ml
-  - label: CUDA
+  - label: Random Forests
     category: ml
-  - label: CNN
+  - label: SVM
     category: ml
-  - label: Transformers
+  - label: Gradient Boosting
     category: ml
-  - label: GNN
+  - label: Neural Networks
     category: ml
-  - label: Scikit-learn
+  - label: kNN
     category: ml
-  - label: RAG
+  - label: Naive Bayes
     category: ml
-  - label: React.js
-    category: web
-  - label: React Native
-    category: web
-  - label: Vue
-    category: web
-  - label: Node.js
-    category: web
-  - label: Expo
-    category: web
-  - label: PostgreSQL
-    category: data
-  - label: MongoDB
-    category: data
-  - label: Redis
-    category: data
-  - label: MySQL
-    category: data
-  - label: Git
-    category: tools
+  - label: NVIDIA FLARE
+    category: ml
+
+  - label: FastQC
+    category: bio
+  - label: Trimmomatic
+    category: bio
+  - label: HISAT2
+    category: bio
+  - label: featureCounts
+    category: bio
+  - label: Samtools
+    category: bio
+  - label: DESeq2
+    category: bio
+  - label: HMMER
+    category: bio
+  - label: Spades
+    category: bio
+  - label: Megahit
+    category: bio
+  - label: RASTtk
+    category: bio
+
+  - label: NCBI
+    category: db
+  - label: UniProtKB
+    category: db
+  - label: Pfam / InterPro
+    category: db
+  - label: BLAST
+    category: db
+  - label: GEO
+    category: db
+  - label: TCGA
+    category: db
+  - label: DrugBank
+    category: db
+  - label: CTD
+    category: db
+
+  - label: AWS EC2
+    category: cloud
+  - label: AWS S3
+    category: cloud
+  - label: AWS SageMaker
+    category: cloud
+  - label: AWS Neptune
+    category: cloud
+  - label: AWS Open Data
+    category: cloud
+  - label: DNANexus
+    category: cloud
   - label: Docker
+    category: cloud
+
+  - label: Neo4j
+    category: graph
+  - label: Amazon Neptune
+    category: graph
+  - label: GraphRAG
+    category: graph
+  - label: Cypher
+    category: graph
+
+  - label: Git / GitHub
     category: tools
-  - label: Linux
+  - label: ggplot2
     category: tools
-  - label: Anaconda
+  - label: Microsoft Access
     category: tools
-  - label: CMake
-    category: tools
-  - label: Maven
-    category: tools
-  - label: Gradle
+  - label: Excel
     category: tools
 
 categories:
@@ -69,12 +103,18 @@ categories:
   ml:
     label: ML / AI
     color: "#f59e0b"
-  web:
-    label: Web & Mobile
+  bio:
+    label: Bioinformatic Tools
     color: "#a78bfa"
-  data:
+  db:
     label: Databases
     color: "#34d399"
+  cloud:
+    label: Cloud Platforms
+    color: "#60a5fa"
+  graph:
+    label: Knowledge Graphs
+    color: "#f472b6"
   tools:
-    label: Tools & Systems
+    label: Tools & Analysis
     color: "#fb7185"

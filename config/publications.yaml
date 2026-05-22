@@ -1,84 +1,53 @@
-- title: "MoPac+: Multimodal Modeling of Pavement Cracks Using Hard-Example Mining and Context-Aware Feature Aggregation"
-  venue: "Measurement · Elsevier"
+- title: "Towards Federated Learning Across Biobanks: Prototype Software from the 2026 Carnegie Mellon University–NVIDIA Hackathon"
+  venue: "BioHackrXiv Preprints"
   year: "2026"
   description: >-
-    Extended journal publication of the MoPac pipeline, incorporating hard-example
-    mining and context-aware feature aggregation for multimodal pavement crack
-    modeling from 2D/3D surface imagery collected under TxDOT Project 0-7150.
-  tags:
-    - Computer Vision
-    - Crack Detection
-    - Multimodal Learning
-    - Hard-Example Mining
-    - Pavement Imaging
-  type: Journal
-  accent: "var(--cyan)"
-  url: "https://doi.org/10.1016/j.measurement.2026.120896"
-
-- title: "Towards Federated Learning Across Biobanks: Prototype Software from the 2026 CMU–NVIDIA Hackathon"
-  venue: "OSF Preprints"
-  year: "2026"
-  description: >-
-    Preprint accompanying the OncoLearn hackathon project — a multi-modal ML
-    toolkit for cancer genomics developed across three sub-teams at the 2026
-    Carnegie Mellon University–NVIDIA collaborative bioinformatics hackathon.
+    Preprint from Team RAIDers at the 2026 CMU × NVIDIA Federated Learning
+    Hackathon — a federated framework integrating ALS genomic data across
+    ClinVar, gnomAD, ALSod, GeneCards, and OMIM using NVIDIA FLARE to identify
+    molecular subtypes without centralizing sensitive data.
   tags:
     - Federated Learning
-    - Cancer Genomics
-    - Multi-modal ML
+    - ALS Genomics
+    - NVIDIA FLARE
     - Biobank
     - Open Science
   type: Preprint
-  accent: "var(--amber)"
+  accent: "var(--cyan)"
   url: "https://doi.org/10.37044/osf.io/5psfj_v1"
 
-- title: "A Blueprint for Open Science: Knowledge Graphs to Enable Biological AI Models"
-  venue: "OSF Preprints"
+- title: "A Blueprint for Open Science: How Transatlantic Teams Built and Deployed Knowledge Graphs to Enable Biological (AI) Models"
+  venue: "BioHackrXiv Preprints"
   year: "2025"
   description: >-
-    Documents a transatlantic collaborative effort to build and deploy knowledge
-    graphs supporting biological AI models, developed as part of an open science
-    initiative.
+    First-author preprint documenting Team GeNETwork's Neo4j cancer knowledge
+    graph — integrating somatic variants, drugs, and clinical evidence across 6
+    databases, with cross-institutional collaboration between the AWS/NVIDIA
+    hackathon team and EMBL-EBI in London.
   tags:
     - Knowledge Graphs
-    - Bioinformatics
-    - Graph ML
+    - Cancer Genomics
+    - Neo4j
     - Open Science
     - Collaborative Research
   type: Preprint
   accent: "var(--amber)"
   url: "https://doi.org/10.37044/osf.io/g4rk2_v1"
 
-- title: "Deep Learning Pipeline for Modeling Pavement Cracks With an Imbalanced Dataset (MoPaC)"
-  venue: "Transportation Research Board Annual Meeting"
+- title: "SpaceVars: Pan-Structural Variation Detection in HG002 T2T vs. CHM13"
+  venue: "F1000Research Hackathons (in preparation)"
   year: "2025"
   description: >-
-    Conference poster presenting MoPaC, a deep learning pipeline for pavement
-    crack modeling on large-scale, class-imbalanced 2D/3D imaging datasets
-    collected under TxDOT Project 0-7150.
+    Manuscript in preparation from the Baylor College of Medicine Pan-Structural
+    Variation Hackathon — a 3-phase k-mer and alignment validation pipeline
+    surfacing 1.25M novel sequence candidates in the HG002 T2T assembly, 63.3%
+    of which fall outside known repetitive regions.
   tags:
-    - Computer Vision
-    - Crack Detection
-    - Imbalanced Learning
-    - CNN
-    - Pavement Imaging
-  type: Conference Poster
-  accent: "var(--cyan)"
-  url: ""
-
-- title: "Automated Corrosion Identification in Metal Imagery: Traditional vs. Deep Learning"
-  venue: "Lecture Notes in Computer Science · Springer"
-  year: "2025"
-  description: >-
-    Comparative study of classical ML and deep learning methods for corrosion
-    segmentation and labeling on metal imagery derived from NASA-backed SpaceX-21
-    International Space Station samples.
-  tags:
-    - Segmentation
-    - Corrosion Detection
-    - Deep Learning
-    - Classical ML
-    - Biomedical Imaging
-  type: Book Chapter
+    - Structural Variation
+    - T2T Assemblies
+    - k-mer Analysis
+    - DNANexus
+    - In Preparation
+  type: Manuscript
   accent: "var(--amber)"
-  url: "https://doi.org/10.1007/978-3-031-77389-1_21"
+  url: ""

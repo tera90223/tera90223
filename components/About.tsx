@@ -37,7 +37,7 @@ const skillsByCategory = skills.reduce<Record<string, string[]>>((acc, s) => {
   return acc;
 }, {});
 
-const catOrder = ["language", "ml", "web", "data", "tools"];
+const catOrder = ["language", "ml", "bio", "db", "cloud", "graph", "tools"];
 const getLink  = (label: string) => contactLinks.find(l => l.label === label)?.value ?? "";
 
 // ── token types ────────────────────────────────────────────
@@ -77,7 +77,6 @@ function buildLines(data: {
   degree: string;
   focus: string;
   roles: string[];
-  langs: string[];
   email: string;
   github: string;
   linkedin: string;
@@ -103,7 +102,6 @@ function buildLines(data: {
     { key: "this.degree",    tokens: [str(data.degree)] },
     { key: "this.focus",     tokens: [str(data.focus)] },
     { key: "this.roles",     tokens: inlineStrArr(data.roles) },
-    { key: "this.languages", tokens: inlineStrArr(data.langs) },
     { key: "this.email",     tokens: [str(data.email)] },
     { key: "this.github",    tokens: [str(data.github)] },
     { key: "this.linkedin",  tokens: [str(data.linkedin)] },
@@ -158,7 +156,6 @@ export default function About() {
   const location = facts.find(f => f.label === "Location")?.value ?? "";
   const degree   = facts.find(f => f.label === "Degree")?.value ?? "";
   const focus    = facts.find(f => f.label === "Focus")?.value ?? "";
-  const langs    = (facts.find(f => f.label === "Languages")?.value ?? "").split(" · ");
 
   const lines = buildLines({
     fullName:        `${firstName} ${lastName}`,
@@ -167,7 +164,6 @@ export default function About() {
     degree,
     focus,
     roles:           rolesRaw.map(r => r.label),
-    langs,
     email:           getLink("Email"),
     github:          getLink("GitHub"),
     linkedin:        getLink("LinkedIn"),

@@ -15,43 +15,50 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Andrew Scouten",
+  title: "Chantera Lazard",
   description:
-    "ML Engineer & Researcher — data pipelines, deep learning, and applied AI. CS student at Texas State University.",
-  keywords: ["Andrew Scouten", "ML Engineer", "Machine Learning", "Research", "Texas State"],
-  authors: [{ name: "Andrew Scouten" }],
+    "Bioinformatician & cancer genomics researcher — federated learning, knowledge graphs, and ML pipelines. M.S. Bioinformatics at Northeastern University.",
+  keywords: [
+    "Chantera Lazard",
+    "Bioinformatics",
+    "Cancer Genomics",
+    "Federated Learning",
+    "Knowledge Graphs",
+    "Northeastern University",
+  ],
+  authors: [{ name: "Chantera Lazard" }],
   openGraph: {
-    title: "Andrew Scouten — Building Systems That Learn from Data",
+    title: "Chantera Lazard — Bioinformatics & Cancer Genomics",
     description:
-      "ML Engineer & Researcher building data pipelines, deep learning systems, and applied AI. CS student at Texas State University.",
-    url: "https://andrewscouten.com",
-    siteName: "Andrew Scouten",
+      "Bioinformatician building ML pipelines and knowledge graphs for cancer genomics, federated learning, and variant discovery. M.S. Bioinformatics at Northeastern University.",
+    url: "https://chanteralazard.com",
+    siteName: "Chantera Lazard",
     type: "website",
-    images: [{ url: "https://andrewscouten.com/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://chanteralazard.com/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Andrew Scouten — Building Systems That Learn from Data",
+    title: "Chantera Lazard — Bioinformatics & Cancer Genomics",
     description:
-      "ML Engineer & Researcher building data pipelines, deep learning systems, and applied AI. CS student at Texas State University.",
-    images: ["https://andrewscouten.com/og-image.jpg"],
+      "Bioinformatician building ML pipelines and knowledge graphs for cancer genomics, federated learning, and variant discovery. M.S. Bioinformatics at Northeastern University.",
+    images: ["https://chanteralazard.com/og-image.png"],
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  url: "https://andrewscouten.com",
+  url: "https://chanteralazard.com",
   mainEntity: {
     "@type": "Person",
-    name: "Andrew Scouten",
-    url: "https://andrewscouten.com",
-    jobTitle: "ML Engineer & Researcher",
-    alumniOf: "Texas State University",
+    name: "Chantera Lazard",
+    url: "https://chanteralazard.com",
+    jobTitle: "Bioinformatician & Cancer Genomics Researcher",
+    alumniOf: ["Northeastern University", "University of Houston"],
     sameAs: [
-      "https://github.com/andrewscouten",
-      "https://linkedin.com/in/andrewscouten",
-      "https://orcid.org/0009-0004-6418-7158",
+      "https://github.com/tera90223",
+      "https://linkedin.com/in/chantera-lazard-66836652",
+      "https://orcid.org/0009-0006-1367-3812",
     ],
   },
 };

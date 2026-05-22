@@ -1,27 +1,27 @@
 greeting: "Hello, I'm"
-firstName: Andrew
-lastName: Scouten
+firstName: Chantera
+lastName: Lazard
 roles:
-  - label: Researcher
+  - label: Bioinformatician
     accent: "var(--cyan)"
-  - label: Data Analyst
+  - label: Cancer Genomics Researcher
     accent: "var(--amber)"
   - label: ML Engineer
     accent: "var(--cyan)"
-  - label: Software Engineer
+  - label: Federated Learning Contributor
     accent: "var(--amber)"
-  - label: Full-Stack Developer
+  - label: Knowledge Graph Builder
     accent: "var(--cyan)"
 bio: >-
-  M.S. Computer Science candidate at Texas State University. I build end-to-end
-  data pipelines and train models for real-world problems — from
-  pavement crack detection to cancer genomics.
+  M.S. Bioinformatics candidate at Northeastern University. I build ML pipelines
+  and knowledge graphs for cancer genomics, federated learning, and variant
+  discovery — from hackathon prototypes to peer-reviewed preprints.
 cta:
   - label: View Projects
     href: "#projects"
     variant: primary
-  - label: Resume & CV
-    href: /AndrewScouten.pdf
+  - label: Resume
+    href: /ChanteraLazard.docx
     download: true
   - label: Get in Touch
     href: "#email"

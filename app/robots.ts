@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://andrewscouten.com/sitemap.xml',
+    sitemap: 'https://chanteralazard.com/sitemap.xml',
   }
 }
