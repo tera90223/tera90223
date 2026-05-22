@@ -1,6 +1,6 @@
 # Hi, I'm Chantera Lazard
 
-M.S. Bioinformatician from Northeastern University. 
+M.S. Bioinformatics from Northeastern University. 
 
 I build ML pipelines and knowledge graphs for cancer genomics, federated learning, and variant discovery — from hackathon prototypes to peer-reviewed preprints.
 
